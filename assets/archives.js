@@ -46,5 +46,4 @@ const archives = [{
         link: "./archives/events/nextextended.html",
         date: "May 2019"
     },
-
 ]
