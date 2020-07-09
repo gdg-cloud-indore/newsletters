@@ -41,3 +41,21 @@ archives.forEach(archive => {
     <div class="item--date">${archive.date}</div>`
     document.getElementById('archives--container').appendChild(archiveCode)
 })
+
+const toggleBodyIframe = () => {
+    document.getElementById('body').classList.toggle('display-none')
+    document.getElementById('iframe--container').classList.toggle('display-none')
+}
+
+//enabling iframes on archive Click
+let archiveLinks = Array.from(document.getElementsByClassName('item--link'))
+archiveLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        toggleBodyIframe();
+        document.getElementById('iframe').src = archives.filter(({ title }) => title === link.textContent)
+            .map(({ link }) => link).reduce((val, link) => val = link)
+    })
+})
+
+//Close button for iframes
+document.getElementById('iframe--header').addEventListener('click', toggleBodyIframe)
