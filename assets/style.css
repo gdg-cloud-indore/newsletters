@@ -95,7 +95,7 @@ hr {
 }
 
 .home {
-    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 .home--content {
@@ -134,7 +134,8 @@ hr {
     max-height: 100%;
 }
 
-.archives {
+.archives,
+.team {
     flex-direction: column;
     align-items: center;
 }
@@ -152,7 +153,7 @@ hr {
     flex-direction: column;
     align-items: center;
     margin: 2rem 1rem 1rem;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .item--container {
@@ -169,17 +170,18 @@ hr {
     flex-basis: 15%;
     text-align: center;
     padding: 4px;
-    color: white;
     margin-right: 1rem;
     border-radius: 4px;
 }
 
 .category-event {
-    background: #3cba54;
+    color: white;
+    background: #f4b400;
 }
 
 .category-newsletter {
-    background: #f4b400;
+    color: white;
+    background: #3cba54;
 }
 
 .item--link {
@@ -253,4 +255,8 @@ hr {
 
 .community div img {
     height: 100%;
+}
+
+.iframe--container {
+    height: 100vh;
 }
