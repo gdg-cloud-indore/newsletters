@@ -13,11 +13,8 @@ navbuttons.forEach(button => {
         })
         let activeMain = button.id.split('-').filter(cl => cl !== 'nav')[0]
         mainContents.forEach(main => {
-            main.classList.remove('active')
             if (main.classList.value.split(' ').includes(activeMain)) {
-                console.log("adding")
-                main.classList.add('active')
-
+                main.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
             }
         })
         button.classList.add('active-nav')
