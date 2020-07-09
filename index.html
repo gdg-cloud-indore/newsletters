@@ -18,15 +18,16 @@
             <img src="./assets/images/GDG Cloud Indore LOGO.png" alt="">
         </div>
         <div class="header--nav">
-            <div class="nav-links" id="home">Home</div>
-            <div class="nav-links" id="archives">Archives</div>
-            <div class="nav-links" id="team">Team</div>
-            <div class="nav-links" id="subscribe">Subscribe</div>
+            <div class="nav-links active-nav" id="home-nav">Home</div>
+            <div class="nav-links" id="archives-nav">Archives</div>
+            <div class="nav-links" id="team-nav">Team</div>
+            <div class="" id="subscribe">Subscribe</div>
         </div>
     </div>
     <div class="main">
-        <div class="hero">
-            <div class="hero--content">
+
+        <div class="main--content home active" id="home">
+            <div class="home--content">
                 <div class="text">
                     <p class="support-text">Welcome to</p>
                     <h1 class="main-text" id="main-text">GDG Cloud Indore</h1>
@@ -41,10 +42,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="hero--logo">
+            <div class="home--logo">
                 <img src="./assets/images/newsletter.png" alt="">
             </div>
         </div>
+        <div class="main--content archives" id="archives"> Archives</div>
+        <div class="main--content team" id="team">Archives</div>
         <hr>
         <div class="social">
             <span>Follow us:</span>
@@ -99,16 +102,7 @@
             </div>
         </div>
     </div>
-    <script>
-        let home = document.getElementById('home')
-        if (window.location.pathname === '/index.html' || window.location.pathname === '/newsletters/') {
-            console.log(home)
-            home.style.backgroundColor = '#e8f0fe'
-        }
-        let colors = ["#0085ff", "#3cba54", "#ea4335", "#f4b400"];
-        let maintext = document.getElementById('main-text');
-        console.log(maintext)
-        maintext.style.color = colors[Math.floor(Math.random() * colors.length)];
+    <script src="./assets/script.js">
     </script>
 </body>
 
