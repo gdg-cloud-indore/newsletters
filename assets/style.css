@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Google Sans", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+}
+
+.header--logo {
+    height: 100%;
+}
+
+.header--logo img {
+    height: 100%;
+}
+
+.header--nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    color: #4285f4;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.nav-links:hover {
+    background-color: #e8f0fe;
+}
+
+#subscribe {
+    background: #fff;
+    color: #EA4335;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+#subscribe:hover {
+    background: #EA4335;
+    color: white;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: calc(1rem + 10vh) auto 0;
+    color: rgb(97, 97, 97);
+}
+
+hr {
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.hero {
+    display: flex;
+    padding: 1rem;
+}
+
+.hero--content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: #f9f9f9; */
+}
+
+.main-text {
+    font-size: 3rem;
+    color: #ea4335;
+}
+
+.support-text {
+    font-size: 2rem;
+    margin-left: 0.6rem;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+.description--points {
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.hero--logo {
+    flex: 1;
+}
+
+.hero--logo img {
+    width: 100%;
+}
+
+.social {
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
+    display: flex;
+}
+
+.social--icons {
+    margin-left: 1rem;
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.social--links {
+    text-decoration: none;
+    color: #000;
+}
+
+.important {
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.important--sections {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.4rem 0;
+}
+
+.link-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-section a {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.community {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vw;
+    margin: 1rem 0.5rem 2rem;
+}
+
+.community div img {
+    height: 100%;
+}
