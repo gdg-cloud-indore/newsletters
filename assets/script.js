@@ -59,9 +59,14 @@ archiveLinks.forEach(link => {
 })
 
 //Close button for iframes
-document.getElementById('iframe--header').addEventListener('click', toggleBodyIframe)
+document.getElementById('iframe--close').addEventListener('click', toggleBodyIframe)
 
 document.getElementById('subscribe').addEventListener('click', () => {
-    toggleBodyIframe();
-    document.getElementById('iframe').src = "https://eepurl.com/goEvfv"
+    document.getElementById('body').classList.toggle('display-none');
+    document.getElementById('subscribe--container').classList.toggle('display-none');
+})
+
+document.getElementById('subscribe--close').addEventListener('click', () => {
+    document.getElementById('body').classList.toggle('display-none');
+    document.getElementById('subscribe--container').classList.toggle('display-none');
 })
