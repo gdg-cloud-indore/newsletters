@@ -20,3 +20,6 @@ navbuttons.forEach(button => {
         button.classList.add('active-nav')
     })
 })
+
+//remove this line
+//document.getElementById('archives').scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })

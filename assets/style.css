@@ -44,7 +44,7 @@ body {
 }
 
 .nav-links:hover {
-    background-color: #e8f0fe;
+    background-color: #e8f0fe80;
 }
 
 .active-nav {
@@ -84,7 +84,6 @@ body {
 }
 
 .main--content {
-    /* visibility: hidden; */
     display: flex;
     height: 75vh;
     width: 100%;
@@ -133,6 +132,72 @@ hr {
 .home--logo img {
     width: 100%;
     max-height: 100%;
+}
+
+.archives {
+    flex-direction: column;
+    align-items: center;
+}
+
+.archives--header,
+.team--header {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.archives--container {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem 1rem;
+    overflow-y: scroll;
+}
+
+.item--container {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.4rem;
+    margin-top: 1rem;
+}
+
+.item--category {
+    flex-basis: 15%;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    margin-right: 1rem;
+    border-radius: 4px;
+}
+
+.category-event {
+    background: #3cba54;
+}
+
+.category-newsletter {
+    background: #f4b400;
+}
+
+.item--link {
+    flex: 1;
+    color: #4285f4;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item--link:hover {
+    transform: scale(1.01);
+}
+
+.item--date {
+    flex-basis: 20%;
+    text-align: end;
 }
 
 .social {
@@ -189,8 +254,3 @@ hr {
 .community div img {
     height: 100%;
 }
-
-
-/* .active {
-    visibility: visible;
-} */
