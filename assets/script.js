@@ -60,3 +60,8 @@ archiveLinks.forEach(link => {
 
 //Close button for iframes
 document.getElementById('iframe--header').addEventListener('click', toggleBodyIframe)
+
+document.getElementById('subscribe').addEventListener('click', () => {
+    toggleBodyIframe();
+    document.getElementById('iframe').src = "http://eepurl.com/goEvfv"
+})
