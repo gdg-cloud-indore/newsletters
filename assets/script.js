@@ -54,6 +54,7 @@ archiveLinks.forEach(link => {
         toggleBodyIframe();
         document.getElementById('iframe').src = archives.filter(({ title }) => title === link.textContent)
             .map(({ link }) => link).reduce((val, link) => val = link)
+        console.log(document.getElementById('iframe').src)
     })
 })
 
