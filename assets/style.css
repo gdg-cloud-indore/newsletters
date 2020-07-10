@@ -206,6 +206,7 @@ hr {
     font-size: 1.2rem;
     margin: 1rem 0.5rem;
     display: flex;
+    align-items: center;
 }
 
 .social--icons {
@@ -217,7 +218,17 @@ hr {
 
 .social--links {
     text-decoration: none;
+    height: 2rem;
+    width: 2rem;
     color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social--links:hover {
+    background-color: #88888860;
+    border-radius: 8px;
 }
 
 .important {
@@ -266,17 +277,27 @@ hr {
     z-index: 1;
 }
 
-#iframe--close {
+#iframe--close,
+#subscribe--close {
     position: fixed;
     right: 0;
     top: 0;
     font-size: 1.5rem;
     margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
 }
 
-#iframe--close:hover {
-    transform: scale(1.3);
+#iframe--close:hover,
+#subscribe--close:hover {
+    background-color: #00000080;
+    color: white;
 }
 
 #subscribe--container {
@@ -286,19 +307,6 @@ hr {
     top: 0;
     left: 0;
     z-index: 1;
-}
-
-#subscribe--close {
-    position: fixed;
-    right: 0;
-    top: 0;
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    cursor: pointer;
-}
-
-#subscribe--close:hover {
-    transform: scale(1.3);
 }
 
 .form--container {
