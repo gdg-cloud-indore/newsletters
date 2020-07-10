@@ -422,8 +422,9 @@ hr {
     background-color: white;
     font-size: 2rem;
     padding: 2rem;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: flex-start;
     text-align: justify;
 }
 
