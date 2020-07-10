@@ -127,6 +127,9 @@ hr {
 
 .home--logo {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .home--logo img {
@@ -268,7 +271,6 @@ hr {
 .social--icons {
     margin-left: 1rem;
     display: flex;
-    width: 20%;
     justify-content: space-evenly;
 }
 
@@ -407,4 +409,32 @@ hr {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #ea4335;
+}
+
+#small-screen {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+@media screen and (max-width: 840px) {
+    #small-screen {
+        display: flex;
+    }
+}
+
+@media screen and (max-height:600px) {
+    #small-screen {
+        display: flex;
+    }
 }
