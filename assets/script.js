@@ -27,7 +27,7 @@ navbuttons.forEach(button => {
 })
 
 //remove this line
-// document.getElementById('archives').scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
+//document.getElementById('team').scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
 
 //Filling Archives into the div
 archives.forEach(archive => {
