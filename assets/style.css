@@ -319,7 +319,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5vw;
+    height: 10vh;
     margin: 1rem 0.5rem 2rem;
 }
 
