@@ -437,8 +437,111 @@ hr {
 }
 
 @media screen and (max-width: 840px) {
-    #small-screen {
+    /* #small-screen {
         display: flex;
+    } */
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+    .header--logo {
+        height: 50%;
+    }
+    .header--nav {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .nav-links {
+        padding: 0.4rem;
+        margin: 0;
+    }
+    #subscribe {
+        padding: 0;
+        margin: 0;
+    }
+    .main {
+        margin-top: calc(1rem + 15vh);
+        width: 90%;
+    }
+    .main--content {
+        height: 75vh;
+    }
+    .home {
+        flex-direction: column-reverse;
+        padding-left: 0;
+    }
+    .home--logo img {
+        height: 250px;
+        width: 250px;
+    }
+    .support-text {
+        font-size: 1.3rem;
+        margin-left: 0;
+    }
+    .main-text {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 0.8rem;
+    }
+    .archives--container {
+        margin: 0;
+    }
+    .item--container {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .item--category {
+        font-size: 0.6rem;
+        flex-basis: 20%;
+    }
+    .item--date {
+        font-size: 0.6rem;
+    }
+    .team--container {
+        flex-direction: column;
+    }
+    .team--card {
+        display: grid;
+        grid-template-areas: "img name" "img description" "img social";
+        width: 100%;
+    }
+    .team--img {
+        height: 100px;
+        width: 100px;
+        grid-area: img;
+    }
+    .team--name {
+        grid-area: name;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+    .team--social {
+        grid-area: social;
+    }
+    .team--description {
+        grid-area: description;
+        margin: 0;
+    }
+    .footer {
+        width: 95%;
+    }
+    .social {
+        font-size: 1rem;
+    }
+    .important {
+        font-size: 1rem;
+    }
+    .important--sections {
+        font-size: 0.7em;
+    }
+    .community {
+        font-size: 0.8rem;
+    }
+    #mc_embed_signup {
+        width: 80%;
     }
 }
 
