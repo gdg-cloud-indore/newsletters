@@ -556,6 +556,13 @@ hr {
     .team--name {
         font-size: 1rem;
     }
+    .main--content {
+        height: 82vh;
+    }
+    .team--img {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 @media screen and (max-height:600px) {
