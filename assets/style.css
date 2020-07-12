@@ -560,6 +560,9 @@ hr {
         height: 80px;
         width: 80px;
     }
+    .main--content {
+        height: 70vh;
+    }
 }
 
 @media screen and (max-height:600px) {
