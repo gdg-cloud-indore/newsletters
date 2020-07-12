@@ -1,7 +1,9 @@
 //alternate color switch for "GDG Cloud Indore"
 let colors = ["#0085ff", "#3cba54", "#ea4335", "#f4b400"];
 let maintext = document.getElementById('main-text');
-maintext.style.color = colors[Math.floor(Math.random() * colors.length)];
+let color = colors[Math.floor(Math.random() * colors.length)];
+maintext.style.color = color
+document.getElementById('subscribe2').style.color = color
 
 //To display main content based on Navbar
 let navbuttons = Array.from(document.getElementsByClassName('nav-links'))
@@ -62,6 +64,11 @@ archiveLinks.forEach(link => {
 document.getElementById('iframe--close').addEventListener('click', toggleBodyIframe)
 
 document.getElementById('subscribe').addEventListener('click', () => {
+    document.getElementById('body').classList.toggle('display-none');
+    document.getElementById('subscribe--container').classList.toggle('display-none');
+})
+
+document.getElementById('subscribe2').addEventListener('click', () => {
     document.getElementById('body').classList.toggle('display-none');
     document.getElementById('subscribe--container').classList.toggle('display-none');
 })

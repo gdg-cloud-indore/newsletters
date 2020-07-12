@@ -125,6 +125,12 @@ hr {
     padding-left: 1rem;
 }
 
+#subscribe2 {
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .home--logo {
     flex: 1;
     display: flex;
@@ -484,7 +490,7 @@ hr {
         font-size: 2rem;
     }
     .description {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .archives--container {
         margin: 0;
