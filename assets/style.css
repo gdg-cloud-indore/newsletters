@@ -539,6 +539,7 @@ hr {
     }
     .community {
         font-size: 0.8rem;
+        height: 6vh;
     }
     #mc_embed_signup {
         width: 80%;
