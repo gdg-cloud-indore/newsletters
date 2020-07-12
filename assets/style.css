@@ -546,6 +546,12 @@ hr {
     }
 }
 
+@media screen and (max-width:440px) {
+    .community {
+        height: 5vh;
+    }
+}
+
 @media screen and (max-height:600px) {
     #small-screen {
         display: flex;
