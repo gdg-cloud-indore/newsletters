@@ -4,6 +4,8 @@ let maintext = document.getElementById('main-text');
 let color = colors[Math.floor(Math.random() * colors.length)];
 maintext.style.color = color
 document.getElementById('subscribe2').style.color = color
+document.documentElement.style
+    .setProperty('--scrollColor', color);
 
 //To display main content based on Navbar
 let navbuttons = Array.from(document.getElementsByClassName('nav-links'))
