@@ -1,6 +1,12 @@
 const archives = [{
         category: "Newsletter",
         title: "Google Cloud Learning Hub, Quantum Supremacy and much more...",
+        link: "./archives/newsletters/july2020.html",
+        date: "July, 2020"
+    },
+    {
+        category: "Newsletter",
+        title: "Google Cloud Learning Hub, Quantum Supremacy and much more...",
         link: "./archives/newsletters/june2020.html",
         date: "June, 2020"
     },
