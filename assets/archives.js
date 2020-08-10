@@ -1,6 +1,6 @@
 const archives = [{
         category: "Newsletter",
-        title: "Google Cloud Learning Hub, Quantum Supremacy and much more...",
+        title: "[July 2020] Google Cloud BigTable, Google Cloud Composer and much more...",
         link: "./archives/newsletters/july2020.html",
         date: "July, 2020"
     },
