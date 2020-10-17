@@ -18,5 +18,5 @@ const adminFiles=[
 ]
 
 for (i in adminFiles){
-document.getElementById('admin-list').innerHTML+=`<li><a href=${adminFiles[i].link}>${adminFiles[i].title}</a></li>`
+document.getElementById('admin-list').innerHTML+=`<li><a href=${adminFiles[i].link} style="font-weight:bold; color: lightblue">${adminFiles[i].title}</a></li>`
 }
