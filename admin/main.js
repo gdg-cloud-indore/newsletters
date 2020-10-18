@@ -18,6 +18,10 @@ const adminFiles=[
     {
         link: "../devfest-mailers/day-2.html",
         title: "Day 2"
+    },
+    {
+        link: "../devfest-mailers/day-3.html",
+        title: "Day 3"        
     }
    
 ]
