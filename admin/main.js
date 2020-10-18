@@ -14,7 +14,12 @@ const adminFiles=[
     {
         link: "../devfest-mailers/day-1.html",
         title: "Day 1"
+    },
+    {
+        link: "../devfest-mailers/day-2.html",
+        title: "Day 2"
     }
+   
 ]
 
 for (i in adminFiles){
