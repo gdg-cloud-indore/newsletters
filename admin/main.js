@@ -15,6 +15,7 @@ const adminFiles=[
         link: "../devfest-mailers/day-1.html",
         title: "Day 1"
     }
+   
 ]
 
 for (i in adminFiles){
