@@ -1,208 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500%7C" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Google+Sans:400,500%7C"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>GDG Cloud Indore Newsletter</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="body">
-        <div class="header">
-            <div class="header--logo">
-                <a href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/" target="_blank" rel="noopener noreferrer">
-                    <img src="./assets/images/GDG Cloud Indore LOGO.png" alt="GDG Cloud Indore">
+      <div class="header">
+        <div class="header--logo">
+          <a
+            href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/images/GDG Cloud Indore LOGO.png"
+              alt="GDG Cloud Indore"
+            />
+          </a>
+        </div>
+        <div class="header--nav">
+          <div class="nav-links active-nav" id="home-nav">Home</div>
+          <div class="nav-links" id="archives-nav">Archives</div>
+          <div class="nav-links" id="team-nav">Team</div>
+          <div class="" id="subscribe">Subscribe</div>
+        </div>
+      </div>
+      <div class="main" id="main">
+        <div class="main--content home" id="home">
+          <div class="home--content">
+            <div class="text">
+              <p class="support-text">Welcome to</p>
+              <h1 class="main-text" id="main-text">GDG Cloud Indore</h1>
+              <p class="support-text">Newsletters</p>
+            </div>
+            <div class="description">
+              GDG Cloud's technology-specific Newsletter brings light to local
+              technologists. Aggregation of latest trends, innovations, and much
+              more, making it worth your time.
+              <br />
+              <br />
+              <ul class="description--points">
+                <li>Latest Technological Innovations.</li>
+                <li>Community Evbrents.</li>
+                <li>Fun to read and full of learning, articles and blogs</li>
+                <li>
+                  Local opportunities, Internships, Hackathons and much more
+                </li>
+              </ul>
+              <br />
+              <span id="subscribe2">Subscribe</span> to our newsletter today!
+            </div>
+          </div>
+          <div class="home--logo">
+            <img src="./assets/images/newsletter.png" alt="GDG Cloud Indore" />
+          </div>
+        </div>
+        <div class="main--content archives" id="archives">
+          <span class="archives--header">Archives</span>
+          <div class="archives--container" id="archives--container"></div>
+        </div>
+        <div class="main--content team" id="team">
+          <span class="team--header">Team</span>
+          <div class="team--container">
+            <div class="team--card">
+              <img
+                src="https://avatars3.githubusercontent.com/u/22573026"
+                alt="Udit Sen"
+                class="team--img"
+              />
+              <span class="team--name">Udit Sen</span>
+              <span class="team--description">Design and Development</span>
+              <div class="team--social">
+                <a
+                  class="team--social-links"
+                  title="Linkedin"
+                  href="https://linkedin.com/in/aedit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-linkedin fa-lg"></i>
                 </a>
+                <a
+                  class="team--social-links"
+                  title="Github"
+                  href="https://github.com/aedit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-github fa-lg"></i>
+                </a>
+                <a
+                  class="team--social-links"
+                  title="Website"
+                  href="https://aedit.github.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-link fa-lg"></i>
+                </a>
+                <a
+                  class="team--social-links"
+                  title="Twitter"
+                  href="https://twitter.com/aeditme"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-twitter fa-lg"></i>
+                </a>
+              </div>
             </div>
-            <div class="header--nav">
-                <div class="nav-links active-nav" id="home-nav">Home</div>
-                <div class="nav-links" id="archives-nav">Archives</div>
-                <div class="nav-links" id="team-nav">Team</div>
-                <div class="" id="subscribe">Subscribe</div>
+            <div class="team--card">
+              <img
+                src="https://gdg-indore-india.github.io/website-data/images/akshay.jpg"
+                alt="Akshay Malviya"
+                class="team--img"
+              />
+              <span class="team--name">Akshay Malviya</span>
+              <span class="team--description">Team Lead</span>
+              <div class="team--social">
+                <a
+                  class="team--social-links"
+                  title="Linkedin"
+                  href="https://www.linkedin.com/in/akshaymalviya"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-linkedin fa-lg"></i>
+                </a>
+                <a
+                  class="team--social-links"
+                  title="Github"
+                  href="https://github.com/AkshayMalviya"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-github fa-lg"></i>
+                </a>
+                <a
+                  class="team--social-links"
+                  title="Twitter"
+                  href="https://twitter.com/malviya_akshay"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-twitter fa-lg"></i>
+                </a>
+              </div>
             </div>
+            <div class="team--card">
+              <img
+                src="https://gdg-indore-india.github.io/website-data/images/shachita.jpg"
+                alt="Shachita Jain"
+                class="team--img"
+              />
+              <span class="team--name">Shachita Jain</span>
+              <span class="team--description">Content and Development</span>
+              <div class="team--social">
+                <a
+                  class="team--social-links"
+                  title="Linkedin"
+                  href="https://www.linkedin.com/in/shachita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-linkedin fa-lg"></i>
+                </a>
+                <a
+                  class="team--social-links"
+                  title="Github"
+                  href="https://github.com/shachita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-github fa-lg"></i>
+                </a>
+                <a
+                  class="team--social-links"
+                  title="Twitter"
+                  href="https://twitter.com/ShachitaJain"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-twitter fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="main" id="main">
-            <div class="main--content home" id="home">
-                <div class="home--content">
-                    <div class="text">
-                        <p class="support-text">Welcome to</p>
-                        <h1 class="main-text" id="main-text">GDG Cloud Indore</h1>
-                        <p class="support-text">Newsletters</p>
-                    </div>
-                    <div class="description">
-                        GDG Cloud's technology-specific Newsletter brings light to local technologists. Aggregation of latest trends, innovations, and much more, making it worth your time.
-                        <br> <br>
-                        <ul class="description--points">
-                            <li>Latest Technological Innovations.</li>
-                            <li>Community Evbrents.</li>
-                            <li>Fun to read and full of learning, articles and blogs</li>
-                            <li>Local opportunities, Internships, Hackathons and much more</li>
-                        </ul>
-                        <br> <span id="subscribe2">Subscribe</span> to our newsletter today!
-                    </div>
-                </div>
-                <div class="home--logo">
-                    <img src="./assets/images/newsletter.png" alt="GDG Cloud Indore">
-                </div>
-            </div>
-            <div class="main--content archives" id="archives">
-                <span class="archives--header">Archives</span>
-                <div class="archives--container" id="archives--container">
-                </div>
-            </div>
-            <div class="main--content team" id="team">
-                <span class="team--header">Team</span>
-                <div class="team--container">
-                    <div class="team--card">
-                        <img src="https://avatars3.githubusercontent.com/u/22573026" alt="Udit Sen" class="team--img">
-                        <span class="team--name">Udit Sen</span>
-                        <span class="team--description">Design and Development</span>
-                        <div class="team--social">
-                            <a class="team--social-links" title="Linkedin" href="https://linkedin.com/in/aedit" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-linkedin fa-lg"></i>
-                            </a>
-                            <a class="team--social-links" title="Github" href="https://github.com/aedit" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-github fa-lg"></i>
-                            </a>
-                            <a class="team--social-links" title="Website" href="https://aedit.github.io" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-link fa-lg"></i>
-                            </a>
-                            <a class="team--social-links" title="Twitter" href="https://twitter.com/aeditme" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-twitter fa-lg"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="team--card">
-                        <img src="https://gdg-indore-india.github.io/website-data/images/akshay.jpg" alt="Akshay Malviya" class="team--img">
-                        <span class="team--name">Akshay Malviya</span>
-                        <span class="team--description">Team Lead</span>
-                        <div class="team--social">
-                            <a class="team--social-links" title="Linkedin" href="https://www.linkedin.com/in/akshaymalviya" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-linkedin fa-lg"></i>
-                            </a>
-                            <a class="team--social-links" title="Github" href="https://github.com/AkshayMalviya" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-github fa-lg"></i>
-                            </a>
-                            <a class="team--social-links" title="Twitter" href="https://twitter.com/malviya_akshay" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-twitter fa-lg"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="team--card">
-                        <img src="https://gdg-indore-india.github.io/website-data/images/shachita.jpg" alt="Shachita Jain" class="team--img">
-                        <span class="team--name">Shachita Jain</span>
-                        <span class="team--description">Content and Development</span>
-                        <div class="team--social">
-                            <a class="team--social-links" title="Linkedin" href="https://www.linkedin.com/in/shachita" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-linkedin fa-lg"></i>
-                            </a>
-                            <a class="team--social-links" title="Github" href="https://github.com/shachita" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-github fa-lg"></i>
-                            </a>
-                            <a class="team--social-links" title="Twitter" href="https://twitter.com/ShachitaJain" target="_blank" rel="noopener noreferrer">
-                                <i class="fa fa-twitter fa-lg"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="footer">
+        <hr />
+        <div class="social">
+          <span>Follow us:</span>
+          <div class="social--icons">
+            <a
+              class="social--links"
+              title="Meetup"
+              href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-meetup fa-lg"></i>
+            </a>
+            <a
+              class="social--links"
+              title="Facebook"
+              href="https://www.facebook.com/gdgcloudindore"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-facebook fa-lg"></i>
+            </a>
+            <a
+              class="social--links"
+              title="Twitter"
+              href="https://https://twitter.com/gdgcloudindore"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-twitter fa-lg"></i>
+            </a>
+            <a
+              class="social--links"
+              title="Linkedin"
+              href="https://www.linkedin.com/company/gdgcloudindore/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-linkedin fa-lg"></i>
+            </a>
+            <a
+              class="social--links"
+              title="Instagram"
+              href="https://www.instagram.com/gdgcloudindore/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-instagram fa-lg"></i>
+            </a>
+          </div>
         </div>
-        <div class="footer">
-            <hr>
-            <div class="social">
-                <span>Follow us:</span>
-                <div class="social--icons">
-                    <a class="social--links" title="Meetup" href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-meetup fa-lg"></i>
-                    </a>
-                    <a class="social--links" title="Facebook" href="https://www.facebook.com/gdgcloudindore" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-facebook fa-lg"></i>
-                    </a>
-                    <a class="social--links" title="Twitter" href="https://https://twitter.com/gdgcloudindore" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-twitter fa-lg"></i>
-                    </a>
-                    <a class="social--links" title="Linkedin" href="https://www.linkedin.com/company/gdgcloudindore/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-linkedin fa-lg"></i>
-                    </a>
-                    <a class="social--links" title="Instagram" href="https://www.instagram.com/gdgcloudindore/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-instagram fa-lg"></i>
-                    </a>
-
-                </div>
+        <hr />
+        <div class="important">
+          <span>Important Links:</span>
+          <div class="important--sections">
+            <div class="link-section">
+              <a
+                href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GDG Cloud Indore</a
+              >
+              <a
+                href="http://gdgindore.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GDG Indore</a
+              >
+              <a
+                href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Become a Member</a
+              >
             </div>
-            <hr>
-            <div class="important">
-                <span>Important Links:</span>
-                <div class="important--sections">
-                    <div class="link-section">
-                        <a href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/" target="_blank" rel="noopener noreferrer">GDG Cloud Indore</a>
-                        <a href="http://gdgindore.in" target="_blank" rel="noopener noreferrer">GDG Indore</a>
-                        <a href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/" target="_blank" rel="noopener noreferrer">Become a Member</a>
-                    </div>
-                    <div class="link-section">
-                        <a href="https://www.youtube.com/c/GDGIndore/" target="_blank" rel="noopener noreferrer">Youtube Channel</a>
-                    </div>
-                </div>
+            <div class="link-section">
+              <a
+                href="https://www.youtube.com/c/GDGIndore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Youtube Channel</a
+              >
             </div>
-            <hr>
-            <div class="community">
-                <span>Community Partners:</span>
-                <div style="height: 100%; cursor: pointer;">
-                    <a href="https://www.gdgindore.in" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                        <img src="./assets/images/GDG Indore LOGO.png" alt="GDG Indore">
-                        <img src="./assets/images/WTM Indore.png" alt="WTM Indore">
-                    </a>
-                </div>
-            </div>
+          </div>
         </div>
+        <hr />
+        <div class="community">
+          <span>Community Partners:</span>
+          <div style="height: 100%; cursor: pointer">
+            <a
+              href="https://www.gdgindore.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="text-decoration: none"
+            >
+              <img src="./assets/images/GDG Indore LOGO.png" alt="GDG Indore" />
+              <img src="./assets/images/WTM Indore.png" alt="WTM Indore" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="iframe--container" class="display-none">
-        <div id="iframe--close"> <i class="fa fa-close fa-lg"></i></div>
-        <iframe id="iframe" src="" frameborder="0" style="height: 100%; width: 100%;"></iframe>
+      <div id="iframe--close"><i class="fa fa-close fa-lg"></i></div>
+      <iframe
+        id="iframe"
+        src=""
+        frameborder="0"
+        style="height: 100%; width: 100%"
+      ></iframe>
     </div>
     <div id="subscribe--container" class="display-none">
-        <div id="subscribe--close"> <i class="fa fa-close fa-lg"></i></div>
-        <!-- MailChimp Form -->
-        <div class="form--container">
-            <div id="mc_embed_signup">
-                <form action="https://facebook.us7.list-manage.com/subscribe/post?u=303ef851a601f593c6d6c14b6&amp;id=9e5fd3a36d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <img src="./assets/images/GDG Cloud Indore LOGO.png" alt="GDG Cloud Indore" style="width: 100%;">
-                        <h2>Subscribe to GDG Cloud Indore Mailing List</h2>
-                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                            </label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
-                            </label>
-                            <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
-                            </label>
-                            <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_303ef851a601f593c6d6c14b6_9e5fd3a36d" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    </div>
-                </form>
+      <div id="subscribe--close"><i class="fa fa-close fa-lg"></i></div>
+      <!-- MailChimp Form -->
+      <div class="form--container">
+        <div id="mc_embed_signup">
+          <form
+            action="https://facebook.us7.list-manage.com/subscribe/post?u=303ef851a601f593c6d6c14b6&amp;id=9e5fd3a36d"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <img
+                src="./assets/images/GDG Cloud Indore LOGO.png"
+                alt="GDG Cloud Indore"
+                style="width: 100%"
+              />
+              <h2>Subscribe to GDG Cloud Indore Mailing List</h2>
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"
+                  >Email Address <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-FNAME"
+                  >First Name <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="text"
+                  value=""
+                  name="FNAME"
+                  class="required"
+                  id="mce-FNAME"
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-LNAME"
+                  >Last Name <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="text"
+                  value=""
+                  name="LNAME"
+                  class="required"
+                  id="mce-LNAME"
+                />
+              </div>
+              <div id="mce-responses" class="clear">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display: none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display: none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  type="text"
+                  name="b_303ef851a601f593c6d6c14b6_9e5fd3a36d"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="clear">
+                <input
+                  type="submit"
+                  value="Subscribe"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  class="button"
+                />
+              </div>
             </div>
+          </form>
         </div>
+      </div>
     </div>
     <!-- <div id="small-screen">
         <h1 class="main-text" id="small-screen-header">GDG Cloud Indore</h1>
@@ -211,6 +425,5 @@
     </div> -->
     <script src="./assets/archives.js"></script>
     <script src="./assets/script.js"></script>
-</body>
-
+  </body>
 </html>
