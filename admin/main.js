@@ -23,6 +23,10 @@ const adminFiles = [
     link: "../devfest-mailers/day-3.html",
     title: "Day 3",
   },
+  {
+    link: "../devfest-mailers/thanks.html",
+    title: "Thanks",
+  },
 ];
 
 for (i in adminFiles) {
