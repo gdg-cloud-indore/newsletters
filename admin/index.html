@@ -1,30 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="./styles.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Google+Sans:400,500%7C"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./main.js" defer></script>
-</head>
-<body>
-    <div class="container mt-5 mb-5">
-        <div class="row" style="text-align: center;">
-            <div class="col-md-6 offset-md-3">
-                <h3>Newsletter admin access</h3>
-                <hr style="border: 1px solid crimson;">
-                
-                <ul class="timeline" id="admin-list">
-                  
-                </ul>
-            </div>
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header--logo">
+        <a
+          href="https://www.meetup.com/Google-Cloud-Developer-Community-Indore/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="../assets/images/GDG Cloud Indore LOGO.png"
+            alt="GDG Cloud Indore"
+          />
+        </a>
+      </div>
+      <div class="header--nav">
+        <div class="nav-links active-nav" id="home-nav">
+          <a href="../index.html">Home</a>
         </div>
+      </div>
     </div>
-    
-    
+    <div class="container">
+      <div class="row" style="text-align: center">
+        <div class="col-md-6 offset-md-3">
+          <h3>Newsletter admin access</h3>
+          <hr style="border: 1px solid crimson" />
+
+          <ul class="timeline" id="admin-list"></ul>
+        </div>
+      </div>
+    </div>
+
     <!-- <div style="text-align: center;">
         <h1>Newsletter admin access</h1>
         <hr style="border: 1px solid crimson;">
@@ -33,5 +68,5 @@
         
     </ul>
      -->
-</body>
+  </body>
 </html>
