@@ -29,8 +29,8 @@ const adminFiles = [
   },
 ];
 
-for (i in adminFiles) {
+for (i of adminFiles) {
   document.getElementById(
     "admin-list"
-  ).innerHTML += `<li><a href=${adminFiles[i].link} style="font-weight:bold; color: #4285f4">${adminFiles[i].title}</a></li>`;
+  ).innerHTML += `<li><a href=${i.link} style="font-weight:bold; color: #4285f4">${i.title}</a></li>`;
 }
